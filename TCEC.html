@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Chess Engine Championship</title>
+    <meta name="description"
+        content="Klání těch nejlepších šachových motorů na světě. Stockfish | Komodo | Leela Chess Zero">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Domů</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="deepBlue.html">Deep Blue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="alphaZero.html">Alpha Zero</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="roboti.html">Roboti</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="TCEC.html">TCEC</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="weby.html">Přehled webů</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container p-5">
+        <h2>Top Chess Engine Championship <small>šachové enginy si měří síly</small></h2>
+        <p>Všechny šachové enginy hrají se stejným hardwarem a mají stejnou databázi zahajení. Ten nejlepší dostane
+            šachového jezdce Shanny.</p>
+    </div>
+    <div class="container">
+        <table class="table table-sm table-striped table-hover">
+            <tr>
+                <th>Sezóna</th>
+                <th>výherce</th>
+                <th>Sezóna</th>
+                <th>výherce</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="houdini">Houdini</td>
+                <td>2</td>
+                <td class="houdini">Houdini</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="houdini">Houdini</td>
+                <td>4</td>
+                <td class="houdini">Houdini</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="komodo">Komodo</td>
+                <td>6</td>
+                <td class="stockfish">Stockfish</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td class="komodo">Komodo</td>
+                <td>8</td>
+                <td class="komodo">Komodo</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="stockfish">Stockfish</td>
+                <td>10</td>
+                <td class="houdini">Houdini</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td class="stockfish">Stockfish</td>
+                <td>12</td>
+                <td class="stockfish">Stockfish</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td class="stockfish">Stockfish</td>
+                <td>14</td>
+                <td class="stockfish">Stockfish</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td class="LCZero">LCZero</td>
+                <td>16</td>
+                <td class="stockfish">Stockfish</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td class="LCZero">LCZero</td>
+                <td>18</td>
+                <td><a href="https://tcec-chess.com/" target="_blank">probíhá zde</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        <h3>Stockfish</h3>
+        <p>Opensource motor inspirovaný Glaurungem (taky opensource). První verze vyšla v roce 2008. Je naprogramován v
+            jazyce C++. Dostupný jak pro počítač, tak i pro mobil. Slangově se mu říká Treska (což je překlad) nebo také
+            Ryba. Umí hrát i <a href="https://cs.wikipedia.org/wiki/Fischerovy_%C5%A1achy" target="_blank">Fisherovy
+                šachy</a>. Je trénován Fishtestem, který běží na procesorech dobrovolníků a bylo využito více než
+            2600let CPU času, díky čemuž stockfish zesílil o 120 Elo bodů.</p>
+        <ul>
+            <li>webové stránky: <a href="https://stockfishchess.org/" target="_blank">stockfishchess.org</a></li>
+            <li>repozitář: <a href="https://github.com/official-stockfish" target="_blank">github.com</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="images/alphaZeroGo/stockfish.jpg" class="d-flex mx-auto p-2" alt="Stockfish">
+            </div>
+            <div class="col d-flex mx-auto">
+                <img src="images/world/Shanny.jpg" class="d-flex mx-auto p-2" alt="Pohár šachového jezdce Shanny">
+            </div>
+            <div class="col d-flex mx-auto">
+                <img src="images/alphaZeroGo/LCZero.jpg" class="d-flex mx-auto p-2" alt="Leela Chess Zero">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Leela Chess Zero</h3>
+        <p>Zkráceně LCZero nebo LC0. Vychází z Alphy Zero a rovněž používá neuronové sítě. Projek začal v roce 2018,
+            získala 2 tituly TCEC a podílí se na něm i zakladatel Fishtestu Gary Linscott.</p>
+        <ul>
+            <li>webové stránky: <a href="https://lczero.org/">lczero.org</a></li>
+            <li>repozitář: <a href="https://github.com/LeelaChessZero/">github.com</a></li>
+        </ul>
+    </div>
+    <div class="container-fluid bg-dark p-5">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/wljgxS7tZVE" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="width: 100%" class="d-flex mx-auto"
+            allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>

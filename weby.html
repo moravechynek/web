@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="cs">
+<!--
+    návštěvnost, typ(herna, taktika...), další možnosti, vzhled
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přehled šachových webů</title>
+    <meta name="description"
+        content="lichess.org, chess.com, chessfriend.com, playchess.com, chesscube.org, chesstempo.com, chess24.com, 365chess.com, sachy.cz, kurnik.pl">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Domů</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deepBlue.html">Deep Blue</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="alphaZero.html">Alpha Zero</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="roboti.html">Roboti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="TCEC.html">TCEC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="weby.html">Přehled webů</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid bg-primary">
+            <img src="navWebu.png" class="img-fluid d-flex mx-auto" alt="Navigační mapa" style="height: 93vh;"
+                usemap="#image-map">
+        </div>
+        <!--         <map name="image-map">
+            <area target="" alt="chess.com" title="chess.com" href="#chess" coords="313,119,44,18" shape="rect">
+            <area target="" alt="lichess.org" title="lichess.org" href="#lichess" coords="452,84,76" shape="circle">
+            <area target="" alt="chesstempo.com" title="chesstempo.com" href="#chesstempo" coords="671,89,74"
+                shape="circle">
+            <area target="" alt="playchess.com" title="playchess.com" href="#playchess" coords="88,253,201,142"
+                shape="rect">
+            <area target="" alt="365chess.com" title="365chess.com" href="#365chess" coords="309,198,52" shape="circle">
+            <area target="" alt="sachy.cz" title="sachy.cz" href="#sachy" coords="487,245,696,176" shape="rect">
+            <area target="" alt="chesscube.com" title="chesscube.com" href="#chesscube" coords="37,372,458,289"
+                shape="rect">
+            <area target="" alt="chessfriends.com" title="chessfriends.com" href="#chessfriends"
+                coords="499,270,757,340" shape="rect">
+            <area target="" alt="kurnik.pl" title="kurnik.pl" href="#kurnik" coords="30,460,494,395" shape="rect">
+            <area target="" alt="chess24.com" title="chess24.com" href="#chess24" coords="551,369,731,480" shape="rect">
+        </map> -->
+
+        <!--<div id="mapa" class="bg-info p-5 m-5">
+            <div class="bg-primary">
+                <div class="row m-5">
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#lichess">lichess</a></div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#chess">chess</a></div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#chessfriends">chessfriends</a>
+                    </div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#playchess">playchess</a></div>
+                </div>
+                <div class="row m-5">
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#chesscube">chesscube</a></div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#chesstempo">chesstempo</a></div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#chess24">chess24</a></div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#365chess">365chess</a></div>
+                </div>
+                <div class="row m-5">
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#sachy">sachy</a></div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"><a href="#kurnik">kurnik</a></div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"></div>
+                    <div class="col p-2 bg-dark text-center text-uppercase"></div>
+                </div>
+            </div>
+        </div>-->
+    </header>
+
+    <div class="container">
+        <!-- Lichess -->
+        <div id="lichess" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>Lichess</h2>
+                    </div>
+                    <div class="d-flex mx-auto">
+                        <img src="images/weby/lichess.png" alt="lichess logo" style="width: 225px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://lichess.org" target="_blank">lichess.org</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/lichess.png" alt="lichess screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!-- Lichess -->
+
+        <!-- Chess.com -->
+        <div id="chess" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>Chess.com</h2>
+                    </div>
+                    <div class="d-flex mx-auto">
+                        <img src="images/weby/chess.jpg" alt="chess.com logo" style="width: 200px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://chess.com" target="_blank">chess.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/chess.png" alt="chess screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!-- Chess.com -->
+
+        <!--- chessfriends -->
+        <div id="chessfriends" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>chessfriends</h2>
+                    </div>
+                    <div class="d-flex mx-auto">
+                        <img src="images/weby/chessFriends.png" alt="chessfriends logo" style="width: 254px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://www.chessfriends.com" target="_blank">chessfriends</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/chessfriends.png" alt="chessfriends screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!--- chessfriends -->
+
+        <!--- playchess -->
+        <div id="playchess" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>playchess</h2>
+                    </div>
+                    <div class="d-flex mx-auto">
+                        <img src="images/weby/playChess.png" alt="playchess logo" style="width: 141px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://play.chessbase.com/en/" target="_blank">playchess</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/playchess.png" alt="playchess screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!--- playchess -->
+
+        <!--- chesscube -->
+        <div id="chesscube" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>chesscube</h2>
+                    </div>
+                    <div class="bg-dark d-flex mx-auto">
+                        <img src="images/weby/chessCube.png" alt="chesscube logo" style="width: 400px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="http://chesscube.org/" target="_blank">chesscube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/chesscube.png" alt="chesscube screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!--- chesscube -->
+
+
+        <!--- chesstempo -->
+        <div id="chesstempo" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>chesstempo</h2>
+                    </div>
+                    <div class="d-flex mx-auto">
+                        <img src="images/weby/chesstempo.svg" alt="chesstempo logo" style="width: 193px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://chesstempo.com/" target="_blank">chesstempo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/chesstempo.png" alt="chesstempo screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!--- chesstempo -->
+
+        <!-- chess24 -->
+        <div id="chess24" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>chess24</h2>
+                    </div>
+                    <div class="d-flex mx-auto">
+                        <img src="images/weby/chess24.png" alt="chess24 logo" style="width: 200px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://chess24.com/en" target="_blank">chess24</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/chess24.png" alt="chess24 screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!-- chess24 -->
+
+        <!-- 365chess -->
+        <div id="365chess" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>365chess</h2>
+                    </div>
+                    <div class="d-flex mx-auto">
+                        <img src="images/weby/365chess.webp" alt="365chess logo" style="width: 89px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://365chess.com" target="_blank">365chess</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/365chess.png" alt="365chess screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!-- 365chess -->
+
+        <!-- sachy -->
+        <div id="sachy" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>sachy</h2>
+                    </div>
+                    <div class="bg-dark d-flex mx-auto">
+                        <img src="images/weby/sachy.svg" alt="sachy logo" style="width: 200px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://sachy.cz/" target="_blank">sachy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/sachy.png" alt="sachy screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!-- sachy -->
+
+        <!-- kurnik -->
+        <div id="kurnik" class="row py-5">
+            <div class="col-md-6 col-12">
+                <div class="card">
+                    <div class="card-title text-center">
+                        <h2>kurnik</h2>
+                    </div>
+                    <div class="bg-dark d-flex mx-auto">
+                        <img src="images/weby/kurnik.png" alt="kurnik logo" style="width: 440px;">
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://www.kurnik.pl/szachy/" target="_blank">kurnik</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="images/screeShots/kurnik.png" alt="kurnik screenshot" style="width: 100%;">
+            </div>
+        </div>
+        <!-- kurnik -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

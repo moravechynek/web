@@ -1,0 +1,49 @@
+header {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+p {
+    text-indent: 7%;
+}
+body {
+    font-family: 'Sriracha', cursive;
+}
+nav {
+    font-size: larger;
+    min-height: 7vh;
+    background-color: rgb(41, 9, 9);
+}
+.partie {
+    text-decoration: underline;
+    color: rgb(41, 9, 9);
+}
+.partie:hover {
+    text-decoration: underline;
+    color: rgb(100, 54, 54);
+    background-color: yellow;
+}
+.carousel-item {
+    height: 93vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.houdini {
+    /*background-color: lightsalmon;*/
+    color: salmon;
+}
+.stockfish {
+    /*background-color: lightgreen;*/
+    color: green;
+}
+.komodo {
+    /*background-color: lightcoral;*/
+    color: coral;
+}
+.LCZero {
+    /*background-color: orange;*/
+    color: red;
+}

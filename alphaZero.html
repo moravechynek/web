@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umělá inteligence Alpha Zero</title>
+    <meta name="description"
+        content='Narozdíl od předešlých umí hrát Go, šachy a šógy. Funguje na principu neuronových sítí.'>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Domů</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deepBlue.html">Deep Blue</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="alphaZero.html">Alpha Zero</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="roboti.html">Roboti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="TCEC.html">TCEC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="weby.html">Přehled webů</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="images/alphaZeroGo/deepMind.jpg" class="img-fluid" alt="Deepmind" style="width: 100%;">
+    </header>
+    <div class="container p-3">
+        <h2>Předchozí verze</h2>
+    </div>
+    <div class="container py-3">
+        <table class="table table-sm">
+            <tr>
+                <th>Verze</th>
+                <th>Datum vydání</th>
+                <th>Zajímavosti</th>
+            </tr>
+            <tr>
+                <td>AlphaGo</td>
+                <td></td>
+                <td>umělá inteligence, hrající hru Go. V roce 2016 porazila nejlepšího hráče světa 4:1.</td>
+            </tr>
+            <tr>
+                <td>AlphaGo Master</td>
+                <td></td>
+                <td>další verze AlphaGo. V roce 2017 porazila tehdejšího nejlepšího hráče 3:0 a další špičkové
+                    hráče online 16:0.</td>
+            </tr>
+            <tr>
+                <td>AlphaGo Zero</td>
+                <td></td>
+                <td>další verze AlphaGo. Nemá k dispozici žádné lidsky hrané partie ani člověkem nastavené
+                    pravidla.</td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        <div class="row">
+            <img src="images/alphaZeroGo/neurovovaSit.png" class="d-flex mx-auto p-3" alt="Neuronová síť">
+            <img src="images/alphaZeroGo/image1.jpg" class="d-flex mx-auto p-3" alt="Alpha_Zero_Go">
+        </div>
+    </div>
+    <div class="container p-5">
+        <h2>Alpha Zero</h2>
+        <p>Zero (nemá k dispozici žádnou lidsky hranou partii)</p>
+        <p>Umělá inteligence společnosti Deepmind (Google) narozdíl od svých předchůdců nehraje "jen" Go, ale i šachy a
+            šógy (japonské šachy). Principem není počítat co největší počet variat, ale co nejefektivněji. Zjednodušeně
+            řečeno: "špatné tahy" není nutno počítat příliš do hloubky.</p>
+    </div>
+    <div class="container-fluid p-3">
+        <div class="row">
+            <div class="col-md-4 col-12 p-1">
+                <img src="images/alphaZeroGo/tabulka1.png" class="border" alt="Graf 1" style="width: 100%;">
+            </div>
+            <div class="col-md-4 col-12 p-1">
+                <img src="images/alphaZeroGo/tabulka2.png" class="border" alt="Graf 2" style="width: 100%;">
+            </div>
+            <div class="col-md-4 col-12 p-1">
+                <img src="images/alphaZeroGo/tabulka3.png" class="border" alt="Graf 3" style="width: 100%;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-5" style="background-color: rgb(139, 219, 139);">
+        <div class="container p-2">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <img src="images/alphaZeroGo/AZvsStockfish.jpg" alt="Alpha Zero vs Stockfish" style="width: 100%;">
+                </div>
+                <div class="col-md-6 col-12">
+                    <h1 class="text-center pt-5 pb-2">Alpha Zero vs Stockfish</h1>
+                    <p>V prosinci 2017 se Stockfish poprvé utkal s Alphou Zero. Ta ale po pouhých 4 hodinách dosáhla
+                        jeho úrovně
+                        a v zápase o 100 partiích vyhrála 64:36 bez porážky. Dále hráli dalších 1200 her, kde se
+                        stockfishovi sice podařilo 24 partií vyhrát, ale celkově slavila úzpěch Alpha Zero se skóre
+                        733:467.</p>
+                    <a href="images/alphaPGN/alphazero_vs_stockfish_all.pgn"  style="text-decoration: none;" download="">
+                        <button class="btn btn-dark text-light m-5 d-flex mx-auto">210 partií - 2018</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
